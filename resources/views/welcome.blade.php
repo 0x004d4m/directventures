@@ -1,0 +1,10 @@
+@extends('website.layouts.main')
+@section('title', __('content.home'))
+@section('content')
+    @include('website.partials.carousel')
+    @include('website.partials.about')
+    @include('website.partials.features')
+    @include('website.partials.services')
+    @include('website.partials.quote')
+    @include('website.partials.team')
+@endsection
