@@ -3,7 +3,7 @@
     <div class="container py-5">
         <div class="row g-5 justify-content-center">
             <div class="col-lg-5">
-                <h5 class="fw-bold text-primary text-uppercase">{{$Contact->name}}</h5>
+                <h5 class="fw-bold text-primary text-center text-uppercase">{{$Contact->name}}</h5>
                 <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
                     <form action="/" method="POST">
                         @csrf
