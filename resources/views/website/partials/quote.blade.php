@@ -1,16 +1,10 @@
 <!-- Quote Start -->
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="contact">
     <div class="container py-5">
-        <div class="row g-5">
-            <div class="col-lg-7">
-                <div class="section-title position-relative pb-3 mb-5">
-                    <h5 class="fw-bold text-primary text-uppercase">{{$Contact->name}}</h5>
-                    <h1 class="mb-0">{{$Contact->title}}</h1>
-                </div>
-                <p class="mb-4">{{$Contact->description}}</p>
-            </div>
+        <div class="row g-5 justify-content-center">
             <div class="col-lg-5">
                 <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
+                    <h5 class="fw-bold text-primary text-uppercase">{{$Contact->name}}</h5>
                     <form action="/" method="POST">
                         @csrf
                         @if (Session::has('Success'))
