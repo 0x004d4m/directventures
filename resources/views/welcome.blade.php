@@ -5,6 +5,6 @@
     @include('website.partials.about')
     @include('website.partials.features')
     @include('website.partials.services')
-    @include('website.partials.quote')
     @include('website.partials.team')
+    @include('website.partials.quote')
 @endsection

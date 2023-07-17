@@ -39,9 +39,9 @@
                             <p class="mb-0">{{__('content.footer_email')}}</p>
                         </div>
                         <div class="d-flex mt-4">
-                            <a class="btn btn-primary btn-square me-2" href="{{__('content.footer_youtube')}}"><i class="fab fa-youtube fw-normal"></i></a>
+                            {{-- <a class="btn btn-primary btn-square me-2" href="{{__('content.footer_youtube')}}"><i class="fab fa-youtube fw-normal"></i></a> --}}
                             <a class="btn btn-primary btn-square me-2" href="{{__('content.footer_linkedin')}}"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            <a class="btn btn-primary btn-square" href="{{__('content.footer_instagram')}}"><i class="fab fa-instagram fw-normal"></i></a>
+                            {{-- <a class="btn btn-primary btn-square" href="{{__('content.footer_instagram')}}"><i class="fab fa-instagram fw-normal"></i></a> --}}
                         </div>
                     </div>
                 </div>
